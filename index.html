@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitas Escolares | Museo PetStar</title>
+    <!-- Tailwind CSS (CDN para un diseño rápido y minimalista) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Un verde PetStar personalizado para detalles */
+        .bg-petstar { background-color: #007A33; }
+        .text-petstar { color: #007A33; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- Navegación -->
+    <nav class="bg-white shadow-sm py-4">
+        <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-petstar tracking-tight">PetStar</div>
+            <div class="hidden md:flex space-x-6 text-sm font-medium text-gray-500">
+                <a href="#" class="hover:text-petstar transition">Inicio</a>
+                <a href="#requisitos" class="hover:text-petstar transition">Requisitos</a>
+                <a href="#contacto" class="hover:text-petstar transition">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Héroe / Cabecera -->
+    <header class="bg-petstar text-white py-20 px-4 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
+                Descubre el Futuro del Reciclaje
+            </h1>
+            <p class="text-lg md:text-xl text-green-100 mb-8 font-light">
+                Agenda la visita de tu escuela al Museo Auditorio PetStar y vive de cerca la economía circular. El proceso es rápido, gratuito y 100% asistido por nuestro agente inteligente.
+            </p>
+        </div>
+    </header>
+
+    <!-- Sección de Requisitos -->
+    <main class="flex-grow max-w-5xl mx-auto px-4 py-16" id="requisitos">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold mb-4 text-gray-900">¿Qué necesitas saber antes de agendar?</h2>
+            <div class="w-16 h-1 bg-petstar mx-auto rounded"></div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Tarjeta 1 -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <div class="text-3xl mb-4">🏫</div>
+                <h3 class="font-bold text-xl mb-2">Para Escuelas</h3>
+                <p class="text-gray-600 text-sm">Dirigido a instituciones educativas, preferentemente de nivel secundaria en adelante.</p>
+            </div>
+            <!-- Tarjeta 2 -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <div class="text-3xl mb-4">👥</div>
+                <h3 class="font-bold text-xl mb-2">Cupo del Grupo</h3>
+                <p class="text-gray-600 text-sm">Recibimos grupos con un máximo de 40 personas para garantizar la mejor experiencia.</p>
+            </div>
+            <!-- Tarjeta 3 -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <div class="text-3xl mb-4">📅</div>
+                <h3 class="font-bold text-xl mb-2">Reserva Fácil</h3>
+                <p class="text-gray-600 text-sm">Solo necesitas el nombre de la escuela, datos del profesor responsable y la fecha deseada.</p>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="mt-16 bg-gray-100 rounded-2xl p-8 text-center" id="contacto">
+            <h3 class="text-2xl font-bold mb-4">¿Todo listo para la visita?</h3>
+            <p class="text-gray-600 mb-6">Utiliza el botón de chat en la esquina inferior derecha para hablar con nuestro asistente virtual y apartar tu lugar ahora mismo.</p>
+            <p class="text-sm text-gray-400">El asistente se encargará de validar la disponibilidad y enviarte la confirmación por correo.</p>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="bg-white border-t border-gray-200 py-6 text-center text-gray-500 text-sm">
+        <p>&copy; 2026 Proyecto de Residencia - Instituto Tecnológico Superior Zacatecas Sur.</p>
+    </footer>
+
+    <!-- ========================================================================= -->
+    <!-- Pega AQUÍ ABAJO el Snippet de código que te da Salesforce (Embedded Service) -->
+    <!-- ========================================================================= -->
+
+    <!-- FIN DEL SNIPPET DE SALESFORCE -->
+
+</body>
+</html>
